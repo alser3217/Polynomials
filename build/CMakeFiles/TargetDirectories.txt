@@ -1,0 +1,15 @@
+K:/Labs/2Year/Polynomials/build/CMakeFiles/RUN_TESTS.dir
+K:/Labs/2Year/Polynomials/build/CMakeFiles/Polynomials.dir
+K:/Labs/2Year/Polynomials/build/CMakeFiles/ALL_BUILD.dir
+K:/Labs/2Year/Polynomials/build/CMakeFiles/ZERO_CHECK.dir
+K:/Labs/2Year/Polynomials/build/googletest/CMakeFiles/RUN_TESTS.dir
+K:/Labs/2Year/Polynomials/build/googletest/CMakeFiles/ALL_BUILD.dir
+K:/Labs/2Year/Polynomials/build/googletest/googletest/CMakeFiles/gtest.dir
+K:/Labs/2Year/Polynomials/build/googletest/googletest/CMakeFiles/gtest_main.dir
+K:/Labs/2Year/Polynomials/build/googletest/googletest/CMakeFiles/RUN_TESTS.dir
+K:/Labs/2Year/Polynomials/build/googletest/googletest/CMakeFiles/ALL_BUILD.dir
+K:/Labs/2Year/Polynomials/build/tests/CMakeFiles/TESTS.dir
+K:/Labs/2Year/Polynomials/build/tests/CMakeFiles/RUN_TESTS.dir
+K:/Labs/2Year/Polynomials/build/sample/CMakeFiles/sample.dir
+K:/Labs/2Year/Polynomials/build/sample/CMakeFiles/RUN_TESTS.dir
+K:/Labs/2Year/Polynomials/build/sample/CMakeFiles/ALL_BUILD.dir

@@ -1,0 +1,19 @@
+# CMake generation dependency list for this directory.
+K:/CMake/share/cmake-3.21/Modules/CMakeCXXInformation.cmake
+K:/CMake/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake
+K:/CMake/share/cmake-3.21/Modules/CMakeGenericSystem.cmake
+K:/CMake/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake
+K:/CMake/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake
+K:/CMake/share/cmake-3.21/Modules/CMakeRCInformation.cmake
+K:/CMake/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake
+K:/CMake/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake
+K:/CMake/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+K:/CMake/share/cmake-3.21/Modules/Compiler/MSVC-CXX.cmake
+K:/CMake/share/cmake-3.21/Modules/Platform/Windows-MSVC-CXX.cmake
+K:/CMake/share/cmake-3.21/Modules/Platform/Windows-MSVC.cmake
+K:/CMake/share/cmake-3.21/Modules/Platform/Windows.cmake
+K:/CMake/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake
+K:/Labs/2Year/Polynomials/CMakeLists.txt
+K:/Labs/2Year/Polynomials/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake
+K:/Labs/2Year/Polynomials/build/CMakeFiles/3.21.4/CMakeRCCompiler.cmake
+K:/Labs/2Year/Polynomials/build/CMakeFiles/3.21.4/CMakeSystem.cmake

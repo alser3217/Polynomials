@@ -1,0 +1,4 @@
+﻿  ordered_table.cxx
+K:\Labs\2Year\Polynomials\src\ordered_table.cxx(10,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+K:\Labs\2Year\Polynomials\src\ordered_table.cxx(50,21): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  Polynomials.vcxproj -> K:\Labs\2Year\Polynomials\build\Debug\Polynomials.lib
