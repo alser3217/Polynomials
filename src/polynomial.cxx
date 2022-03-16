@@ -251,3 +251,7 @@ double Polynomial::value(double x, double y, double z) {
 	}
 	return result;
 }
+
+std::string Polynomial::get_as_string() {
+	return as_string;
+}

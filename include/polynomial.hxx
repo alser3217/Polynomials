@@ -20,6 +20,7 @@ class Polynomial {
 public:
 	Polynomial(std::string _as_string = "");
 	int size() const;
+	std::string get_as_string();
 	friend std::ostream& operator<<(std::ostream& os, const Polynomial& pl);
 	Polynomial operator+(const Polynomial& object);
 	Polynomial operator-(const Polynomial& object);

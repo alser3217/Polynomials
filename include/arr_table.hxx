@@ -14,8 +14,9 @@ namespace Tables {
   public:
     ArrTable() : BaseTable() {}
     virtual void remove(const std::string& _key);
-    virtual void insert(const Tables::Data& d);
-    virtual Polynomial* find(const std::string& _key, int& pos);
+    virtual void insert(const Tables::Data& _data);
+    virtual Polynomial* find(const std::string& _key);
+    virtual int find_remove(const std::string& _key);
     void print();
     virtual ~ArrTable() {};
   };

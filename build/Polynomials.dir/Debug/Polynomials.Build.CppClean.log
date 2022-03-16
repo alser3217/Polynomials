@@ -1,4 +1,5 @@
 k:\labs\2year\polynomials\build\debug\polynomials.pdb
+k:\labs\2year\polynomials\build\polynomials.dir\debug\base_table.obj
 k:\labs\2year\polynomials\build\polynomials.dir\debug\list_table.obj
 k:\labs\2year\polynomials\build\polynomials.dir\debug\ordered_table.obj
 k:\labs\2year\polynomials\build\polynomials.dir\debug\postfix.obj
@@ -7,7 +8,6 @@ k:\labs\2year\polynomials\build\polynomials.dir\debug\interface.obj
 k:\labs\2year\polynomials\build\polynomials.dir\debug\monom.obj
 k:\labs\2year\polynomials\build\polynomials.dir\debug\polynomial.obj
 k:\labs\2year\polynomials\build\polynomials.dir\debug\arr_table.obj
-k:\labs\2year\polynomials\build\polynomials.dir\debug\base_table.obj
 k:\labs\2year\polynomials\build\cmakefiles\generate.stamp
 k:\labs\2year\polynomials\build\debug\polynomials.lib
 k:\labs\2year\polynomials\build\polynomials.dir\debug\polynomials.tlog\cl.command.1.tlog
