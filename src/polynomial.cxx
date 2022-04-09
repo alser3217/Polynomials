@@ -60,7 +60,6 @@ Polynomial::Polynomial(std::string _as_string) {
 }
 
 std::ostream& operator<<(std::ostream& os, const Polynomial& pl) {
-	
 	if (pl.as_string == "0x0y0z0")
 		os << "0";
 	else
@@ -254,4 +253,37 @@ double Polynomial::value(double x, double y, double z) {
 
 std::string Polynomial::get_as_string() {
 	return as_string;
+}
+
+void Polynomial::change(std::string _as_string) {
+	monoms.clear();
+	to_list(_as_string);
+	sort();
+	reduce();
+	string_edit();
+	Size = monoms.size();
+}
+
+std::string Polynomial::derivativeX() {
+	std::string result;
+	for (int i = 0; i < monoms.size(); i++)
+		result += (monoms[i].getDerivativeX());
+	result.erase(0, 1);
+	return result;
+}
+
+std::string Polynomial::derivativeY() {
+	std::string result;
+	for (int i = 0; i < monoms.size(); i++)
+		result += (monoms[i].getDerivativeY());
+	result.erase(0, 1);
+	return result;
+}
+
+std::string Polynomial::derivativeZ() {
+	std::string result;
+	for (int i = 0; i < monoms.size(); i++)
+		result += (monoms[i].getDerivativeZ());
+	result.erase(0, 1);
+	return result;
 }

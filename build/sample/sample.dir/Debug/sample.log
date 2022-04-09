@@ -1,0 +1,3 @@
+﻿  sample.cxx
+K:\Labs\2Year\Polynomials\sample\sample.cxx(55,30): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  sample.vcxproj -> K:\Labs\2Year\Polynomials\build\sample\Debug\sample.exe

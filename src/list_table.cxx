@@ -1,37 +1,58 @@
 
 #include "list_table.hxx"
 
-Polynomial* Tables::ListTable::find(const std::string& _key) {
-	for (int i = 0; i < data.size(); i++)
-		if (data[i].key == _key)
-			return data[i].polynomial;
+std::shared_ptr<Polynomial> Tables::ListTable::find(const std::string& _key) {
+	for (auto i : data)
+		if (i.key == _key)
+			return i.polynomial;
 	return nullptr;
 }
 
-void Tables::ListTable::insert(const Data& _data) {
-	if (find(_data.key) != nullptr)
-		throw "already exists!";
-	data.push_back(_data);
-}
-
-void Tables::ListTable::remove(const std::string& _key) {
+bool Tables::ListTable::insert(const Data& _data) {
 	int pos = 0;
-	pos = find_remove(_key);
-	if (pos == -1)
-		throw "no such element";
-	data.remove(pos);
+	std::cout << data.size() << std::endl;
+	if (find(_data.key, pos))
+		return false;
+	if (size == data.size()) {
+		std::cout << "here!" << std::endl;
+		return false;
+	}
+	data.push_front(_data);
+	size++;
+
+	return true;
 }
 
-int Tables::ListTable::find_remove(const std::string& _key) {
-	for (int i = 0; i < data.size(); i++)
-		if (data[i].key == _key)
-			return i;
-	return -1;
+bool Tables::ListTable::remove(const std::string& _key) {
+	int pos = 0;
+	bool success = false;
+	success = find(_key, pos);
+	if (!success)
+		return false;
+	std::list<Data>::iterator range_begin = data.begin();
+	std::advance(range_begin, pos);
+	data.erase(range_begin);
+	size--;
 
+	return true;
 }
 
 void Tables::ListTable::print() {
-	for (int i = 0; i < data.size(); i++) {
-		std::cout << data[i] << std::endl;
-	}
+	for (auto i : data)
+		std::cout << i << std::endl;
 }
+
+bool Tables::ListTable::find(const std::string& _key, int& pos) {
+	int counter = 0;
+	for (auto i : data) {
+		if (i.key == _key) {
+			pos = counter;
+
+			return true;
+		}
+		counter++;
+	}
+
+	return false;
+}
+

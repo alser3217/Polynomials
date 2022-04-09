@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="K:\Labs\2Year\Polynomials\src\arr_table.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="K:\Labs\2Year\Polynomials\src\polynomial.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="K:\Labs\2Year\Polynomials\src\monom.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="K:\Labs\2Year\Polynomials\src\interface.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="K:\Labs\2Year\Polynomials\src\chaining_hash_table.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="K:\Labs\2Year\Polynomials\src\postfix.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="K:\Labs\2Year\Polynomials\src\ordered_table.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="K:\Labs\2Year\Polynomials\src\list_table.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="K:\Labs\2Year\Polynomials\src\base_table.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="K:\Labs\2Year\Polynomials\src\tree_table.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="K:\Labs\2Year\Polynomials\src\open_access_hash_table.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="K:\Labs\2Year\Polynomials\include\list.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Labs\2Year\Polynomials\include\base_table.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Labs\2Year\Polynomials\include\arr_table.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Labs\2Year\Polynomials\include\stack.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Labs\2Year\Polynomials\include\polynomial.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Labs\2Year\Polynomials\include\monom.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Labs\2Year\Polynomials\include\interface.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Labs\2Year\Polynomials\include\chaining_hash_table.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Labs\2Year\Polynomials\include\postfix.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Labs\2Year\Polynomials\include\ordered_table.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Labs\2Year\Polynomials\include\list_table.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Labs\2Year\Polynomials\include\tree_table.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\Labs\2Year\Polynomials\include\open_access_hash_table.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="K:\Labs\2Year\Polynomials\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{16FD6487-76AC-3059-8415-E4F45ABC9750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FC30B8A9-E9A7-38E8-A93D-F84463773AF1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

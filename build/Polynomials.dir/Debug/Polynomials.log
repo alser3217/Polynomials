@@ -1,0 +1,10 @@
+﻿  chaining_hash_table.cxx
+K:\Labs\2Year\Polynomials\src\chaining_hash_table.cxx(5,34): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+K:\Labs\2Year\Polynomials\src\chaining_hash_table.cxx(14,39): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+K:\Labs\2Year\Polynomials\src\chaining_hash_table.cxx(28,34): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+K:\Labs\2Year\Polynomials\src\chaining_hash_table.cxx(50,34): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  postfix.cxx
+K:\Labs\2Year\Polynomials\src\postfix.cxx(61,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  base_table.cxx
+  Generating Code...
+  Polynomials.vcxproj -> K:\Labs\2Year\Polynomials\build\Debug\Polynomials.lib

@@ -2,18 +2,25 @@
 #define __LISTTABLE__
 
 #include "base_table.hxx"
-#include "list.hxx"
+
+#include <list>
 
 namespace Tables {
 	class ListTable : public BaseTable {
-		List<Tables::Data> data;
+		std::list<Data> data;
 		int size = 0;
+
+	private:
+		bool find(const std::string& _key, int& pos) override;
+
 	public:
-		Polynomial* find(const std::string& _key);
-		int find_remove(const std::string& _key);
-		void insert(const Data& _data);
-		void remove(const std::string& _key);
-		void print();
+
+		ListTable(int _size = SIZE) : data(_size), size(0) {}
+
+		std::shared_ptr<Polynomial> find(const std::string& _key) override;
+		bool insert(const Data& _data) override;
+		bool remove(const std::string& _key) override;
+		void print() override;
 	  ~ListTable() {}
 	};
 }

@@ -2,6 +2,7 @@
 #define __MONOM__
 
 #include <iostream>
+#include<string>
 
 class Monom {
 	double coeff;
@@ -14,6 +15,9 @@ public:
 	friend bool operator>(const Monom& mn1, const Monom& mn2);
 	friend bool operator<(const Monom& mn1, const Monom& mn2);
 	friend bool operator==(const Monom& mn1, const Monom& mn2);
+	std::string getDerivativeX();
+	std::string getDerivativeY();
+	std::string getDerivativeZ();
 	Monom& operator=(const Monom& mn);
 };
 
